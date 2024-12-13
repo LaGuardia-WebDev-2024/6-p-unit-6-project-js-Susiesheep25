@@ -13,17 +13,20 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
   // top house
-  fill (107, 90, 7);
+  fill (117, 63, 1);
   rect(2,2,200,320);
   
   //bottom house
-  fill (135, 113, 7);
+  strokeWeight (5);
+  fill (186, 116, 35);
   rect (2,200,200,100);
   
   //windows
+  strokeWeight (5);
   fill(206, 237, 237);
   rect (2,50,50,100);
   rect (70,50,50,100);
+  strokeWeight (1);
   
   //grass
   fill(43, 196, 84);
@@ -45,9 +48,11 @@ void draw(){
    fill(23, 22, 19);
    ellipse(185, 130, 70, 30);
    ellipse (280, 130, 70,30);
+   strokeWeight (10);
    line (218, 130, 244, 131);
 line(317,130,348,124);
 line (151,127,140,122);
+strokeWeight (1);
 
 // nose
 line (228,130,201,194);
