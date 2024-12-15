@@ -22,7 +22,7 @@ void draw(){
   rect (2,200,200,100);
   
   //windows
-  strokeWeight (5);
+  strokeWeight (8);
   fill(206, 237, 237);
   rect (2,50,50,100);
   rect (70,50,50,100);
